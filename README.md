@@ -127,6 +127,43 @@ fareedkhan-dev-all-rag-techniques/
         ```
 
 4. **Run the notebooks:**
+    URL для доступа:
+        http://localhost:8888/tree?token=ea9c8925c9a61ea7515230cb62965b0b4125128919dad637
+
+        Или просто:
+            http://localhost:8888
+
+Как использовать:
+
+1. Откройте Jupyter Notebook: http://localhost:8888
+2. При открытии любого .ipynb файла перейдите в меню Kernel → Change kernel
+3. Выберите "RAG Environment (venv)"
+
+Доступные ядра теперь:
+
+
+┌────────────┬────────────────────────────────────┐
+│ Ядро       │ Путь                               │
+├────────────┼────────────────────────────────────┤
+│ rag-env ⭐ │ Ваш venv с PyMuPDF и зависимостями │
+├────────────┼────────────────────────────────────┤
+│ python311  │ Системный Python 3.11              │
+├────────────┼────────────────────────────────────┤
+│ python3    │ Системный Python 3.11              │
+└────────────┴────────────────────────────────────┘
+
+
+---
+
+Альтернатива: Запуск Jupyter прямо из venv
+
+Вы также можете запустить Jupyter непосредственно из виртуального окружения:
+
+cd C:\WorkPlace\all-rag-techniques
+venv\Scripts\activate
+jupyter notebook
+
+В этом случае все ядра по умолчанию будут использовать зависимости из venv.
 
     Open any of the Jupyter Notebooks (`.ipynb` files) using Jupyter Notebook or JupyterLab.  Each notebook is self-contained and can be run independently.  The notebooks are designed to be executed sequentially within each file.
 

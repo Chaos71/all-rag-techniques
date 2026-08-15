@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip *)",
+      "Bash(venv\\python.exe *)",
+      "Bash(\"c:\\workplace\\all-rag-techniques\\venv\\scripts\\python.exe\" *)",
+      "Bash(jupyter *)",
+      "Bash(venv\\scripts\\python.exe *)",
+      "Bash(python *)"
+    ]
+  },
+  "$version": 4
+}

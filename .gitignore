@@ -5,6 +5,7 @@ __pycache__/
 
 # Ignore virtual environments
 .env/
+venv/
 
 # Ignore system files
 .DS_Store
@@ -25,3 +26,5 @@ build/
 .idea/
 *.sublime-workspace
 .ipynb_checkpoints/
+
+
